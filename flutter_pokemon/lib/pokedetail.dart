@@ -13,7 +13,7 @@ class PokeDetail extends StatelessWidget {
   _bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.8,
+            height: MediaQuery.of(context).size.height / 1.4,
             width: MediaQuery.of(context).size.width - 20,
             left: 10,
             top: MediaQuery.of(context).size.height * 0.1,
